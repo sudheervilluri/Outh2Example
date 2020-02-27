@@ -1,0 +1,29 @@
+logging:
+    level:
+        org:
+            springframework: INFO
+server:
+    port: 8888
+spring:
+    datasource:
+        driverClassName: org.h2.Driver
+        password: ''
+        url: jdbc:h2:mem:testdb
+        username: sa
+    h2:
+        console:
+            enabled: true
+            path: /h2
+    jpa:
+        database-platform: org.hibernate.dialect.H2Dialect
+    security:
+      oauth2:
+       client:
+        registration:
+          okta:
+            client-id: 0oa2l41636F6hc55v4x6
+            client-secret: nZVNJ4vawCzpqXC6t6Aq4lp_IYfEMRNTviCYtD5W
+            scope: openid, email, profile 
+        provider:
+          okta:
+            issuer-uri:  https://dev-171255.okta.com/oauth2/default
