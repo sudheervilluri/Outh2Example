@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.plurersight</groupId>
-	<artifactId>fundamentals</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>fundamentals</name>
+	<artifactId>Outh2Example</artifactId>
+	<version>0.1</version>
+	<name>Outh2Example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
